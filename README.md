@@ -18,10 +18,8 @@ This project predicts **house prices in Cairo** using **Machine Learning** and p
 ---
 
 ## ⚙️ Tech Stack
-- **Backend**: Python (Flask / FastAPI), Scikit-learn, Pandas, NumPy  
+- **Backend**: Python (Flask), Scikit-learn, Pandas, NumPy  
 - **Frontend**: Lovable (React)  
-- **Deployment Ready**: Can be containerized with Docker  
-
 ---
 
 ## 🚀 Setup & Run
