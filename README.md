@@ -1,73 +1,45 @@
-# Welcome to your Lovable project
+# 🏠 House Price Prediction in Cairo  
 
-## Project info
+This project predicts **house prices in Cairo** based on property details such as type, location, bedrooms, bathrooms, and size.  
+It combines a **Machine Learning model** with a **Lovable-generated web UI** for easy interaction.  
 
-**URL**: https://lovable.dev/projects/168a4c36-2e3f-4b5d-809e-44e3761eb640
+---
 
-## How can I edit this code?
+## 📌 Features  
+- Predicts house prices instantly.  
+- Modern one-page UI (built with [Lovable](https://lovable.app)).  
+- Input fields:  
+  - 🏢 Property Type: Apartment, Villa, Studio, Duplex, Penthouse  
+  - 📍 Location: Zamalek, Maadi, New Cairo, Nasr City, 6th of October, Heliopolis, Downtown  
+  - 🛏 Bedrooms  
+  - 🚿 Bathrooms  
+  - 📐 Size in m²  
+- Output: 💰 Estimated price in **EGP**  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ⚙️ Tech Stack  
+- **Frontend**: Lovable (auto-generated UI)  
+- **Backend**: Python (Flask / FastAPI)  
+- **ML Model**: Scikit-learn (Linear Regression, Random Forest, etc.)  
+- **Dataset**: Cairo housing dataset (synthetic/demo)  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/168a4c36-2e3f-4b5d-809e-44e3761eb640) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Setup  
 
-**Use your preferred IDE**
+```bash
+# 1. Clone repo
+git clone https://github.com/your-username/cairo-house-price-prediction.git
+cd cairo-house-price-prediction
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# 3. Install dependencies
+pip install -r requirements.txt
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/168a4c36-2e3f-4b5d-809e-44e3761eb640) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# 4. Run backend
+python app.py
