@@ -1,45 +1,58 @@
-# 🏠 House Price Prediction in Cairo  
+# 🏠 Cairo House Price Prediction
 
-This project predicts **house prices in Cairo** based on property details such as type, location, bedrooms, bathrooms, and size.  
-It combines a **Machine Learning model** with a **Lovable-generated web UI** for easy interaction.  
-
----
-
-## 📌 Features  
-- Predicts house prices instantly.  
-- Modern one-page UI (built with [Lovable](https://lovable.app)).  
-- Input fields:  
-  - 🏢 Property Type: Apartment, Villa, Studio, Duplex, Penthouse  
-  - 📍 Location: Zamalek, Maadi, New Cairo, Nasr City, 6th of October, Heliopolis, Downtown  
-  - 🛏 Bedrooms  
-  - 🚿 Bathrooms  
-  - 📐 Size in m²  
-- Output: 💰 Estimated price in **EGP**  
+This project predicts **house prices in Cairo** using **Machine Learning** and provides a simple **web interface** for users to input property details and get real-time predictions.
 
 ---
 
-## ⚙️ Tech Stack  
-- **Frontend**: Lovable (auto-generated UI)  
-- **Backend**: Python (Flask / FastAPI)  
-- **ML Model**: Scikit-learn (Linear Regression, Random Forest, etc.)  
-- **Dataset**: Cairo housing dataset (synthetic/demo)  
+## 📌 Features
+- Train ML model with features:
+  - Type
+  - Location
+  - Bedrooms
+  - Bathrooms
+  - Size (sqm)
+- Save trained model (`model.pkl`)
+- REST API endpoint for predictions
+- Frontend (Lovable / React-based) for user-friendly input & results display
 
 ---
 
-## 🚀 Setup  
+## ⚙️ Tech Stack
+- **Backend**: Python (Flask / FastAPI), Scikit-learn, Pandas, NumPy  
+- **Frontend**: Lovable (React)  
+- **Deployment Ready**: Can be containerized with Docker  
 
+---
+
+## 🚀 Setup & Run
+
+### 1. Clone the repo
 ```bash
-# 1. Clone repo
 git clone https://github.com/your-username/cairo-house-price-prediction.git
 cd cairo-house-price-prediction
-
-# 2. Create virtual environment
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-
-# 3. Install dependencies
+```
+### 2. Backend
+```bash
+# Install dependencies
 pip install -r requirements.txt
 
-# 4. Run backend
-python app.py
+# Train the model
+python backend/train_model.py
+
+# Run API
+python backend/app.py
+
+
+
+```
+### 1. Front
+```bash
+
+cd frontend
+
+# Install dependencies
+npm install
+
+# Run frontend
+npm start
+```
