@@ -18,15 +18,18 @@ This project predicts **house prices in Cairo** using **Machine Learning** and p
 ---
 
 ## ⚙️ Tech Stack
-- **Backend**: Python (Flask), Scikit-learn, Pandas, NumPy  
+- **Backend**: Python (FastAPI), Scikit-learn, Pandas, NumPy  
 - **Frontend**: Lovable (React)  
 ---
+```
+## 📂 Project Structure
 
+```
 ## 🚀 Setup & Run
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/cairo-house-price-prediction.git
+git clone https://github.com/AbdelrahmanGaber528/cairo-house-prices-prediction.git 
 cd cairo-house-price-prediction
 ```
 ### 2. Backend
