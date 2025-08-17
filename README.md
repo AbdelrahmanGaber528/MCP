@@ -1,6 +1,5 @@
-# 🏠 Cairo House Price Prediction
+# 🏠 Medical Costs Prediction
 
-This project predicts **house prices in Cairo** using **Machine Learning** and provides a simple **web interface** for users to input property details and get real-time predictions.
 
 ---
 
@@ -29,8 +28,8 @@ This project predicts **house prices in Cairo** using **Machine Learning** and p
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/AbdelrahmanGaber528/cairo-house-prices-prediction.git 
-cd cairo-house-price-prediction
+git clone https://github.com/AbdelrahmanGaber528/MCP.git 
+cd MCP
 ```
 ### 2. Backend
 ```bash
