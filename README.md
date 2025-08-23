@@ -31,7 +31,7 @@ MCP/
 
 ## 🚀 Installation
 ```bash
-git clone https://github.com/<your-username>/MCP.git
+git clone https://github.com/AbdelrahmanGaber528/MCP.git
 cd MCP
 pip install -r requirements.txt
 ```
