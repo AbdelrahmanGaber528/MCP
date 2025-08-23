@@ -10,6 +10,7 @@ MCP/
 │── src/
 │ ├── config/ # Configurations (paths, parameters)
 │ ├── model/ # saved model
+| ├── visuals /   # all visuals for data 
 │── notebooks/ # Jupyter Notebooks for experiments & trainning
 │── data/
 │ ├── raw/ # Original datasets
