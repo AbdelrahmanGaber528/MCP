@@ -1,4 +1,4 @@
-# MCP Regression Project
+# MCP Project
 
 # Medical Costs Prediction 
 
