@@ -1,4 +1,4 @@
-#!/home/abdelrahman/PycharmProjects/Ml-Camp/.venv/bin/python
+#!/home/abdelrahman/hdd/void/GitHub/My-Projects/MCP/.venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
