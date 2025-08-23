@@ -1,6 +1,8 @@
 # MCP Regression Project
 
-This repository contains a **Regression Project** using **Multilinear Regression** and **Polynomial Regression**. The workflow includes data preprocessing, encoding, scaling, model training, evaluation, and testing.
+# Medical Costs Prediction 
+
+**Regression Project** using **Multilinear Regression** and **Polynomial Regression**. The workflow includes data preprocessing, encoding, scaling, model training, evaluation, and testing.
 
 ---
 
