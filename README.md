@@ -1,58 +1,52 @@
-# 🏠 Medical Costs Prediction
+# MCP Regression Project
 
-
----
-
-## 📌 Features
-- Train ML model with features:
-  - Type
-  - Location
-  - Bedrooms
-  - Bathrooms
-  - Size (sqm)
-- Save trained model (`model.pkl`)
-- REST API endpoint for predictions
-- Frontend (Lovable / React-based) for user-friendly input & results display
+This repository contains a **Regression Project** using **Multilinear Regression** and **Polynomial Regression**. The workflow includes data preprocessing, encoding, scaling, model training, evaluation, and testing.
 
 ---
 
-## ⚙️ Tech Stack
-- **Backend**: Python (FastAPI), Scikit-learn, Pandas, NumPy  
-- **Frontend**: Lovable (React)  
----
-```
 ## 📂 Project Structure
-
 ```
-## 🚀 Setup & Run
+MCP/
+│── src/
+│ ├── config/ # Configurations (paths, parameters)
+│ ├── model/ # saved model
+│── notebooks/ # Jupyter Notebooks for experiments & trainning
+│── data/
+│ ├── raw/ # Original datasets
+│ ├── processed/ # Cleaned & preprocessed datasets
+│── requirements.txt # Dependencies
+│── README.md # Documentation
+```
 
-### 1. Clone the repo
+
+---
+
+## ⚙️ Features
+- **Preprocessing**: Encoding categorical features, scaling numerical features.
+- **Models**: Multilinear Regression, Polynomial Regression.
+- **Evaluation**: MSE, RMSE, R² Score.
+
+---
+
+## 🚀 Installation
 ```bash
-git clone https://github.com/AbdelrahmanGaber528/MCP.git 
+git clone https://github.com/<your-username>/MCP.git
 cd MCP
+pip install -r requirements.txt
 ```
-### 2. Backend
-```bash
-# Install dependencies
+```
+📊 Usage
+
+Place raw datasets in data/raw/.
+
+Preprocess → outputs to data/processed/.
+```
+
+```
+📦 Requirements
+
+Install with:
 pip install -r requirements.txt
 
-# Train the model
-python backend/train_model.py
-
-# Run API
-python backend/app.py
-
-
-
-```
-### 1. Front
-```bash
-
-cd frontend
-
-# Install dependencies
-npm install
-
-# Run frontend
-npm start
+Main packages: pandas, numpy, scikit-learn, matplotlib, seaborn, jupyter.
 ```
